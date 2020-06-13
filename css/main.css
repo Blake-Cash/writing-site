@@ -17,7 +17,7 @@ body {
 	text-align: center;
 	padding: 0px 20px 0px 20px;
 	border-top: 4px solid #333;
-	background: #111;
+	background: #101010;
 
 /*
 background-color: #F7F7F7;
@@ -30,7 +30,7 @@ background-repeat: repeat;*/
 body, div, a, input, select, button, textarea {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #fff;
+	color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,7 +50,7 @@ a {
 /*
 	color: rgba(80, 160, 228);
 	font-size: 100%;*/
-	color: #444444;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ h1 {
 
 #content {
     margin: 0px 15% 0px ;
-		background: #f4f4f4;
+		background: #202020;
 		padding-top: 20px;
 		margin-top: 40px;
 }
@@ -133,7 +133,7 @@ h1 {
 	border-top: 1px solid #dddddd;
 	text-align: center;
 	font-size: 13px;
-	background: #111;
+	background: #101010;
 }
 
 #posts ul {
@@ -149,7 +149,7 @@ h1 {
     float: left;
     border-radius: 3px;
     border: 0px solid #eee;
-    background: #222!important;
+    background: #202020!important;
     background: none repeat scroll 0% 0% #FFF;
     border-radius: 0;
     box-shadow: none;
@@ -220,18 +220,17 @@ margin: 20px 5px 0px 0px;
 	margin-top: 0px;
 	padding-top: 0px;
 	font-size: 20px;
-	color:#222;
+	color:#fff;
 	font-weight: 800;
 }
 
 #page {
 	margin-top: 20px;
 	width: 80%;
-	color: #111;
+	color: #ffffff;
 	margin-left: 10%;
 	text-align: left;
 	padding-left: 3%;
- border-left: 1px dashed #ddd;
 font-size: 1em;
 overflow: hidden;
 /*background: none repeat scroll 0% 0% #FFF;
@@ -342,9 +341,9 @@ only screen and (max-width: 600px) {
 
 
 .post-content {
-    background: #222222!important;
+    background: #202020!important;
     border-radius: 0;
-    color: #444;
+    color: #fff;
 }
 .post-title {
     margin: 40px 0px 8px 0px;
@@ -365,17 +364,23 @@ h1.post-title {
 
 #footer {
     border-top: 0px solid #dddddd;
-    color: #444;
+    color: #ffffff;
 }
 
-
+#blogContent {
+	border: 1px solid #fde6ba;
+    margin: 0px 15% 0px ;
+	background: #202020;
+	padding-top: 20px;
+	margin-top: 40px;
+}
 
 /* remake homepage */
 
 #posts.leftblock, .rightblock {width:100%}
 #content.hp{background: transparent}
-.rightblock{color:#444;text-align:left}
-.rightblock b, .rightblock strong, .rightblock a {color: #555}
+.rightblock{color:#fff;text-align:left}
+.rightblock b, .rightblock strong, .rightblock a {color: #fff}
 
 @media (min-width: 770px) {
 	#heading {
@@ -403,7 +408,7 @@ section#home-hero{
 		width:20%;
 		float:left;
 	}
-	.rightblock b, .rightblock strong, .rightblock a {color: #555}
+	.rightblock b, .rightblock strong, .rightblock a {color: #fff}
 
 }
 
@@ -413,6 +418,6 @@ section#home-hero{
 		background: #f4f4f4;
 		padding: 20px;
 		margin-top: 40px;
-		color: #555!important;
+		color: #fff!important;
 		}
 }
