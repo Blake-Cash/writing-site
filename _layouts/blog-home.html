@@ -1,9 +1,9 @@
 <html>
 	<head>
 		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/monokai.css">
 		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
 		<title>{{site.blog_title}}</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<script type="text/javascript" src='/js/jquery.min.js'></script>
@@ -39,10 +39,10 @@
 					{% for post in site.categories.blog %}
 						<li class='post'>
 							{% if post.image %}
-								<a href='{{post.url}}'><img class='post-image' src="{{post.image}}" /></a>
+								<a href='{{site.baseurl}}{{post.url}}'><img class='post-image' src="{{post.image}}" /></a>
 							{% endif %}
 							<div class="postcontent">
-					<a href='{{post.url}}'><h1 class='post-title'>{{post.title}}</h1></a>
+					<a href='{{site.baseurl}}{{post.url}}'><h1 class='post-title'>{{post.title}}</h1></a>
 
 								<div class='post-content'>{{post.summary}}</div>
 							</div>
