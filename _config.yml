@@ -1,11 +1,11 @@
 permalink: /:categories/:title/
 baseurl: /writing-site
-full_name: "Saigon Jekyll Theme"
+full_name: ""
 first_name: "Just"
 last_name: "Me"
-blog_title: "Title"
+blog_title: "Ratherinn"
 author_img_name_path: "/images/users/user.jpg"
 disqus_shortname: "example"
-copyright_year: "2016"
+copyright_year: "2020"
 google_analytics_code: ""
-aboutme: "I like ramen noodles with cream."
+aboutme: ""
