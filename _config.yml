@@ -1,8 +1,7 @@
 permalink: /:categories/:title/
 baseurl: /writing-site
 full_name: ""
-first_name: "Test"
-last_name: "Test2"
+title: "Test"
 blog_title: "Ratherinn"
 author_img_name_path: "/images/users/user.jpg"
 disqus_shortname: "example"
