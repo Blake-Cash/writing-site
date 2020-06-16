@@ -1,13 +1,14 @@
-To Do:
+To Do (sorted by priority):
 
-- Add sorted archives (By tags?)
-- Better header image
-- Add favicon
-- Add post schedule to about page
-- 'Read Now' Buttons
-- Make links visually distinct
-- Pastebin linking
-- Look into what happens with different image sizes on pages
 - Replace 'test' title
+- Better header image
+- Pastebin linking
+- Add favicon
 - Proper behavior when previous page doesn't exist but next does
+- Make links visually distinct
+- Add sorted archives (By tags?)
+- 'Read Now' Buttons
+- Look into what happens with different image sizes on pages
 - Add support for indenting paragraphs
+- Add post schedule to about page
+- Look into mobile
