@@ -197,13 +197,28 @@ h1 {
 	padding-top: 0px;
 	font-size: 20px;
 	color:#fff;
-	font-weight: 800;
+	font-weight: 600;
 	text-align: center;
+	font-size: 2rem;
 }
 
-#blog-links {
+#pdf-button {
 	text-align: center;
-	font-weight: 800;
+	padding-bottom: 2rem;
+}
+
+#button {
+	border: 1px solid #fde6ba;
+	padding: 5px 40px;
+	font-weight: 600;
+	background: #404040;
+}
+
+#redirect-buttons {
+	padding-top: 10px;
+	justify-content: space-between;
+	display: flex;
+	font-size: 1.3rem;
 }
 
 #page {
@@ -212,7 +227,7 @@ h1 {
 	margin-left: 10%;
 	text-align: left;
 	padding-left: 3%;
-	font-size: 1em;
+	font-size: 1.3rem;
 	overflow: hidden;
 	border-radius: 3px;
 	padding: 10px;
@@ -328,13 +343,17 @@ only screen and (max-width: 600px) {
 	margin: 40px 0px 8px 0px;
 }
 
-section{
+section {
 	background-image: url('/writing-site/images/18asaigon-hero.jpg');
 	background-size: cover;
 	background-position: center;
 	height:100px;
 	width:100%;
 	margin-bottom: 40px;
+}
+
+#page-image {
+	text-align: center;
 }
 
 h1.post-title {
