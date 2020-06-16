@@ -8,3 +8,4 @@ Add favicon
 Consider border on grid elements
 Add post schedule to about page
 'Read Now' Buttons
+Download as PDF
