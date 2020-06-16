@@ -1,5 +1,5 @@
 @font-face {
-	font-family: crimsonPro;
+	font-family: CrimsonPro;
 	src: url(fonts/CrimsonPro-VariableFont_wght.ttf)
 }
 
@@ -211,6 +211,8 @@ h1 {
 	padding: 5px 40px;
 	font-weight: 600;
 	background: #404040;
+	width: 75px;
+	text-align: center;
 }
 
 #redirect-buttons {

@@ -10,6 +10,7 @@ To Do (sorted by priority):
 - 'Read Now' Buttons
 - Look into new fonts (Most for titles)
 - Look into what happens with different image sizes on pages
-- Add support for indenting paragraphs
+- Add support for indenting paragraphs that doesn't require black magic
 - Add post schedule to about page
 - Look into mobile
+- Author on pages. Is that too much?

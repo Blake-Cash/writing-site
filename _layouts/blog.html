@@ -16,9 +16,11 @@
 		<div id='blogContent'>
 			<div id='page'>
 				<h1 id='page-title'>{{page.title}}</h1>
-				<div id='pdf-button'>
-					<a id='button' href="{{site.baseurl}}/pdfs/{{page.pdf}}.pdf">DOWNLOAD PDF</a>
-				</div>
+					<div id='pdf-button'>
+						{% if page.pdf %}
+							<a id='button' href="{{site.baseurl}}/pdfs/{{page.pdf}}.pdf">DOWNLOAD PDF</a>
+						{% endif %}
+					</div>
 				{% if page.image %}
 					<div id='page-image' > 
 						<img id='page-image' src="{{site.baseurl}}{{page.image}}" />
@@ -29,6 +31,9 @@
 				<div id='redirect-buttons'>
 					{% if page.previousPage %}
 						<a id='button' href='{{site.baseurl}}{{page.previousPage}}'> < Previous</a>
+					{% endif %}
+					{% if page.pastebin %}
+						<a id='button' href="{{page.pastebin}}">PASTEBIN</a>
 					{% endif %}
 					{% if page.nextPage %}
 						<a id='button' href='{{site.baseurl}}{{page.nextPage}}'> Next > </a>
