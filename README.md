@@ -8,6 +8,7 @@ To Do (sorted by priority):
 - Make links visually distinct
 - Add sorted archives (By tags?)
 - 'Read Now' Buttons
+- Look into new fonts (Most for titles)
 - Look into what happens with different image sizes on pages
 - Add support for indenting paragraphs
 - Add post schedule to about page
