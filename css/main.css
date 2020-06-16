@@ -45,8 +45,7 @@ a:hover {
 }
 
 img{
-	border: 0px;
-	box-shadow: 0 0px 5px #cccccc;
+	border: 1px solid #101010;
 	border-radius: 5px;
 }
 
